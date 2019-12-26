@@ -1,0 +1,118 @@
+#menu-siderbar {
+  list-style: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#menu-siderbar > li {
+  margin-bottom: 5px;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+#menu-siderbar > li > a {
+  color: #666;
+  font-size: 16px;
+  width: 100%;
+  transition: background ease 0.2s;
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  align-items: center;
+  font-weight: bold;
+}
+
+#menu-siderbar .pull-right {
+  text-align: right;
+}
+
+#menu-siderbar > li:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-sidebar {
+  display: none;
+  list-style: none;
+  padding: 10px 0 0;
+  margin: 0;
+  height: 0;
+  transition: height ease 0.2s;
+}
+
+.dropdown-sidebar.active {
+  display: block;
+  height: auto;
+}
+.dropdown-sidebar li a {
+  color: #324a76;
+  font-size: 14px;
+  margin: 10px 0;
+  display: block;
+}
+.dropdown-sidebar li a:hover {
+  color: #000;
+}
+
+#main {
+  padding: 30px 20px;
+}
+
+#main h1 {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+#main > hr {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+}
+
+/* Estilos dos Formulários */
+.form {
+  width: 600px;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.form input {
+  border: 1px solid #000;
+  background: #f0f0f0ff;
+  padding: 5px;
+  height: 40px;
+  border-radius: 6px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form button {
+  background: #358a73ff;
+  color: #fff;
+  font-weight: bolder;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 220px;
+  margin-top: 50px;
+}
+.form .colunas {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+}
+.form .colunas .input-groups {
+  width: 95%;
+}
+
+.form .colunas .input-groups.foto {
+  width: 40%;
+  margin-right: 10px;
+}
+.form .colunas .input-groups.foto img {
+  width: 100%;
+}

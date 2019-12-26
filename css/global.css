@@ -1,0 +1,130 @@
+/* Adicionando a fonte */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0ff;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+.barralateral{
+  top: 0;
+  text-align: center;
+  float: left;
+  position: fixed;
+  width: 18em;
+  height: 100%;
+  background-color: #000000ff;
+  color: #fff;
+}
+#logo-barra-lateral{
+
+  margin-top: 50px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+}
+.barralateral h2{
+  top: 0;
+  padding: 15px 0;
+  background-color: #141414ff;
+}
+.lista-menu img{
+  width: 50px;
+}
+.lista-menu{
+  bottom: 100px;
+  margin-left: 75px;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  position: absolute;
+}
+.lista-menu li{
+  margin: 10px;
+
+}
+#botao-sair{
+  position: absolute;
+  bottom: 50px ;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #f00;
+  font-weight: bold;
+  left: 50%;
+  margin-left: -42px;
+}
+#foto-jezmael{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70px;
+  margin: 30px;
+  border-radius: 100%;
+}
+#foto-nome{
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 55px;
+  margin-right: 110px;
+}
+.form{
+  left:500px;
+  margin-right:400px !important;
+  position: fixed;
+  margin-top: 150px;
+}
+.carro_tabela{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.carro_tabela ul{
+  margin: 50px 0;
+}
+.carro_tabela li{
+  color: #fff;
+  background-color: #000;
+  margin-left: 200px !important;
+}
+.exclui_img{
+  position: relative;
+  width: 30px !important;
+  top: -17px;
+  right: 10px;
+  float: right;
+}
+.carro_tabela{  
+  display: inline;
+}
+.carro{
+  top: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.fora_carros{
+  position: absolute;
+  margin-top: 500px;
+  background-color: #0f0;
+}
